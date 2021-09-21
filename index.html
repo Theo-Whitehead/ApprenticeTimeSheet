@@ -45,6 +45,56 @@
 
                 </div>
             </div>
+
+            <!--Table-->
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Job Number</th>
+                    <th scope="col">Suffix</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Hours In Week</th>
+                    <th scope="col">Mon</th>
+                    <th scope="col">Tue</th>
+                    <th scope="col">Wed</th>
+                    <th scope="col">Thu</th>
+                    <th scope="col">Fri</th>
+                    <th scope="col">Sat</th>
+                    <th scope="col">Sun</th>
+                    <th scope="col">Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="text" class="form-control" placeholder="Job No." aria-label="Job No."></td>
+                    <td><input type="text" class="form-control" placeholder="Suffix" aria-label="Suffix"></td>
+                    <td><input type="text" class="form-control" placeholder="Description" aria-label="Description"></td>
+                    <td><span id="hrWeek">0</span></td>
+                    <td><input type="number" class="form-control" aria-label="Monday"></td>
+                    <td><input type="number" class="form-control" aria-label="Tuesday"></td>
+                    <td><input type="number" class="form-control" aria-label="Wensday"></td>
+                    <td><input type="number" class="form-control" aria-label="Thursday"></td>
+                    <td><input type="number" class="form-control" aria-label="Friday"></td>
+                    <td><input type="number" class="form-control" aria-label="Saturday"></td>
+                    <td><input type="number" class="form-control" aria-label="Sunday"></td>
+                    <td><button type="button" class="btn btn-danger">Delete</button></td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><span id="hrWeek">0</span></td>
+                    <td><span id="hrMon">0</span></td>
+                    <td><span id="hrTue">0</span></td>
+                    <td><span id="hrWed">0</span></td>
+                    <td><span id="hrThu">0</span></td>
+                    <td><span id="hrFri">0</span></td>
+                    <td><span id="hrSat">0</span></td>
+                    <td><span id="hrSun">0</span></td>
+                    <td></td>
+                </tfoot>
+              </table>
         </form>
     </div>
 </body>
